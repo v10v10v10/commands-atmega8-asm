@@ -12,3 +12,7 @@ with consideration of notes above.
 Input characters from transmitter are written to buffer during an interrupt.
 During ISR the input is being analyzed on having special symbols (start of command, end of command).
 If the input between those symbols matches one of commands, then the corresponding subroutine is called.
+
+
+### Example
+![Example input](pngs/example.png)
