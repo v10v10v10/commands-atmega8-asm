@@ -1,0 +1,89 @@
+#ifndef __ascii__
+#define __ascii__ 1
+
+; ASCII control and special characters
+.EQU NULL		= 0x00	; NULL
+.EQU BACKSPACE	= 0x08	; \b
+.EQU TAB		= 0x09	; \t
+.EQU NEWLINE	= 0x0a 	; \n
+.EQU RETURN		= 0x0d	; \r (end of command)
+.EQU SPACE		= 0x20	; ' ' (space)
+.EQU QUOTES		= 0x22	; "
+.EQU HASHTAG	= 0x23	; #
+.EQU DOLLAR		= 0x24 	; $
+.EQU QUOTE		= 0x27	; '
+.EQU PERIOD		= 0x2e 	; .
+.EQU SLASH		= 0x2f 	; / (start of command)
+.EQU COLON		= 0x3a	; :
+.EQU GREATER	= 0x3e	; >
+.EQU BACKSLASH	= 0x5c	; \
+
+; Digits
+.EQU CHAR_0 = 0x30
+.EQU CHAR_1 = 0x31
+.EQU CHAR_2 = 0x32
+.EQU CHAR_3 = 0x33
+.EQU CHAR_4 = 0x34
+.EQU CHAR_5 = 0x35
+.EQU CHAR_6 = 0x36
+.EQU CHAR_7 = 0x37
+.EQU CHAR_8 = 0x38
+.EQU CHAR_9 = 0x39
+
+; Uppercase letters
+.EQU UPPER_A = 0x41
+.EQU UPPER_B = 0x42
+.EQU UPPER_C = 0x43
+.EQU UPPER_D = 0x44
+.EQU UPPER_E = 0x45
+.EQU UPPER_F = 0x46
+.EQU UPPER_G = 0x47
+.EQU UPPER_H = 0x48
+.EQU UPPER_I = 0x49
+.EQU UPPER_J = 0x4a
+.EQU UPPER_K = 0x4b
+.EQU UPPER_L = 0x4c
+.EQU UPPER_M = 0x4d
+.EQU UPPER_N = 0x4e
+.EQU UPPER_O = 0x4f
+.EQU UPPER_P = 0x50
+.EQU UPPER_Q = 0x51
+.EQU UPPER_R = 0x52
+.EQU UPPER_S = 0x53
+.EQU UPPER_T = 0x54
+.EQU UPPER_U = 0x55
+.EQU UPPER_V = 0x56
+.EQU UPPER_W = 0x57
+.EQU UPPER_X = 0x58
+.EQU UPPER_Y = 0x59
+.EQU UPPER_Z = 0x5a
+
+; Lowercase letters
+.EQU LOWER_A = 0x61
+.EQU LOWER_B = 0x62
+.EQU LOWER_C = 0x63
+.EQU LOWER_D = 0x64
+.EQU LOWER_E = 0x65
+.EQU LOWER_F = 0x66
+.EQU LOWER_G = 0x67
+.EQU LOWER_H = 0x68
+.EQU LOWER_I = 0x69
+.EQU LOWER_J = 0x6a
+.EQU LOWER_K = 0x6b
+.EQU LOWER_L = 0x6c
+.EQU LOWER_M = 0x6d
+.EQU LOWER_N = 0x6e
+.EQU LOWER_O = 0x6f
+.EQU LOWER_P = 0x70
+.EQU LOWER_Q = 0x71
+.EQU LOWER_R = 0x72
+.EQU LOWER_S = 0x73
+.EQU LOWER_T = 0x74
+.EQU LOWER_U = 0x75
+.EQU LOWER_V = 0x76
+.EQU LOWER_W = 0x77
+.EQU LOWER_X = 0x78
+.EQU LOWER_Y = 0x79
+.EQU LOWER_Z = 0x7a
+
+#endif
